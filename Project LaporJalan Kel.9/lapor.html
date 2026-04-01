@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isi Laporan</title>
+</head>
+<body>
+ <header>
+    <h1>ISI FORM LAPORAN</h1>
+ </header>   
+
+<main>
+<section>
+    <form id="LaporForm" data-testid="LaporForm">
+          <div>
+            <label for="LaporFormTitle">Nama Pelapor</label>
+            <input id="LaporFormTitle" type="text" required data-testid="LaporFormTitleInput" />
+          </div>
+          <div>
+            <label for="LaporFormAuthor">Waktu</label>
+            <input id="LaporFormAuthor" type="text" required data-testid="LaporFormAuthorInput" />
+          </div>
+          <div>
+            <label for="LaporFormYear">Tempat</label>
+            <input id="LaporFormYear" type="number" required data-testid="LaporFormYearInput" />
+          </div>
+          <div>
+            <label for="LaporFormIsComplete">Selesai dibaca</label>
+            <input
+              id="LaporFormIsComplete"
+              type="checkbox"
+              data-testid="LaporFormIsCompleteCheckbox"
+            />
+          </div>
+          <button id="LaporFormSubmit" type="submit" data-testid="LaporFormSubmitButton">
+            Masukkan Buku ke rak <span>Belum selesai dibaca</span>
+          </button>
+        </form>
+      </section>
+</section>
+</main>
+
+</body>
+</html>
